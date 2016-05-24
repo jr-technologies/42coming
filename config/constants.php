@@ -9,5 +9,5 @@
 return [
     'SUCCESS_MESSAGE'=>'Request completed successfully',
     'ERROR_MESSAGE'=>'Request Failed',
-    'REGISTRATION_EMAIL_FROM'=>'waqasjr32@gmail.com'
+    'REGISTRATION_EMAIL_FROM'=>'info@property42.pk'
 ];

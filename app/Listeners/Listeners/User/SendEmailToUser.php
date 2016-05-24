@@ -35,7 +35,7 @@ class SendEmailToUser extends Listener implements ListenerInterface
 
         Mail::send('email.welcome',['user' => $user], function($message) use($user)
         {
-            $message->from(config('constants.REGISTRATION_EMAIL_FROM'));
+            $message->from(config('constants.REGISTRATION_EMAIL_FROM'),'Property42.pk');
             $message->to($user->email, $user->fName.''.$user->lName )->subject('Property42');
         });
 
